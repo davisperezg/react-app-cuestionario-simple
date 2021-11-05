@@ -1,0 +1,60 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: coral;
+}
+
+.cuestionario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.opciones {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 5px;
+  column-gap: 10px;
+}
+
+.opcion {
+  flex-grow: 1;
+  background: cyan;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+}
+
+.siguiente {
+  margin-top: 20px;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: dodgerblue;
+  color: aliceblue;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: cadetblue;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
